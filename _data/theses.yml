@@ -1,3 +1,21 @@
+- firstname: Davide 
+  lastname: Stocco
+  affiliation: Politecnico di Milano
+  year: 2025
+  url: https://www.politesi.polimi.it/handle/10589/232515
+  title: "Three essays on ESG ratings and quantitative finance"
+  supervisors:
+    - Emilio Barucci
+
+- firstname: Pietro 
+  lastname: Manzoni
+  affiliation: Politecnico di Milano
+  year: 2025
+  url: https://www.politesi.polimi.it/handle/10589/232693
+  title: "Four essays in energy finance"
+  supervisors:
+    - Roberto Baviera
+    
 - firstname: Marco
   lastname: Patacca
   affiliation: Università degli Studi di Perugia
