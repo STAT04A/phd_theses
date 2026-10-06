@@ -1,9 +1,19 @@
+- firstname: Andrea 
+  lastname: Cinfrignini
+  affiliation: Sapienza Università di Roma
+  year: 2023
+  url: https://iris.uniroma1.it/handle/11573/1683614
+  title: "Discrete Time Models for Bid-Ask Pricing under Dempster-Shafer Uncertainty" 
+  supervisors:
+    - Barbara Vantaggi
+    - Davide Petturiti
+
 - firstname: Davide 
   lastname: Stocco
   affiliation: Politecnico di Milano
   year: 2025
   url: https://www.politesi.polimi.it/handle/10589/232515
-  title: "Three essays on ESG ratings and quantitative finance"
+  title: "Three Essays on ESG Ratings and Quantitative Finance"
   supervisors:
     - Emilio Barucci
 
@@ -12,7 +22,7 @@
   affiliation: Politecnico di Milano
   year: 2025
   url: https://www.politesi.polimi.it/handle/10589/232693
-  title: "Four essays in energy finance"
+  title: "Four Essays in Energy Finance"
   supervisors:
     - Roberto Baviera
     
