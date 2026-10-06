@@ -14,7 +14,7 @@ Applied to Economic and Social Sciences). Suggestions for further additions
 are very welcome: ping <a href="https://github.com/mlicalzi/AMASES_theses">GitHub</a>.
 </p>
 
-{% assign theses_by_year = site.data.theses | group_by: 'year' %}
+{% assign theses_by_year = site.data.theses-2 | group_by: 'year' %}
 {% assign theses_by_year_sorted = theses_by_year | sort: 'name' | reverse %}
 
 <nav class="year-nav">
