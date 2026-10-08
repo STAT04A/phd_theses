@@ -8,10 +8,10 @@ description: >-
 <h1>PhD Theses</h1>
 
 <p class="intro">
-This is an (incomplete) list of PhD theses in fields related to
-<a href="https://www.amases.org">AMASES</a> (Association for Mathematics
-Applied to Economic and Social Sciences). Suggestions for further additions
-are very welcome: ping <a href="https://github.com/mlicalzi/AMASES_theses">GitHub</a>.
+This is a list of {{ site.data.theses | size }} PhD theses in fields related to <a href="https://www.amases.org">AMASES</a> (Association for Mathematics
+Applied to Economic and Social Sciences). It collects entries submitted by authors or supervisors, as well as all works archived by the <a href="https://tesidottorato.depositolegale.it">Biblioteca Centrale di Firenze</a> in association with the 2000 code for "Mathematical Methods for Economics, Finance, and Insurance". 
+  
+Requests for additions or correction are welcome via [email](mailto:alessandra.cretarola@unich.it).
 </p>
 
 {% assign theses_by_year = site.data.theses | group_by: 'year' %}
