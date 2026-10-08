@@ -5,6 +5,12 @@ description: >-
   Discover PhD theses that have been written by scholars related to AMASES.
 ---
 
+<a href="https://www.amases.org">
+  <img src="{{ '/assets/images/HeaderAMASES_900x160.png' | relative_url }}"
+       alt="A.M.A.S.E.S. – Associazione per la Matematica Applicata alle Scienze Economiche e Sociali"
+       style="max-width: 100%; height: auto; display: block; margin: 0 auto 1.5em;">
+</a>
+
 <h1>PhD Theses</h1>
 
 <p class="intro">
