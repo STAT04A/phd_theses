@@ -6,7 +6,7 @@ description: >-
 ---
 
 <a href="https://www.amases.org">
-  <img src="{{ '/assets/images/logo-AMASES.png' | relative_url }}"
+  <img src="assets/images/logo-AMASES.png"
        alt="A.M.A.S.E.S. – Associazione per la Matematica Applicata alle Scienze Economiche e Sociali"
        style="max-width: 100%; height: auto; display: block; margin: 0 auto 1.5em;">
 </a>
