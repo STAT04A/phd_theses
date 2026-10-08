@@ -10,9 +10,8 @@ description: >-
 <p class="intro">
 This is a list of {{ site.data.theses | size }} PhD theses in fields related to <a href="https://www.amases.org">AMASES</a> (Association for Mathematics
 Applied to Economic and Social Sciences). It collects entries submitted by authors or supervisors, as well as all works archived by the <a href="https://tesidottorato.depositolegale.it">Biblioteca Centrale di Firenze</a> in association with the 2000 code for "Mathematical Methods for Economics, Finance, and Insurance". Requests for additions or correction are welcome:
-[email us](mailto:alessandra.cretarola@unich.it).
-
-<br>
+<a href="mailto:alessandra.cretarola@unich.it">email us</a>.
+<br><br>
 The format respects language conventions: titles in English are capitalized while titles in Italian or French are lowercased.   
 </p>
 
