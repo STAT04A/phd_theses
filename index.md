@@ -13,7 +13,7 @@ Applied to Economic and Social Sciences). It collects entries submitted by autho
 [email us](mailto:alessandra.cretarola@unich.it).
 
 <br>
-We are aware that each language has its own conventions: therefore, titles in English are capitalized while titles in Italian or French are lowercased.   
+The format respects language conventions: titles in English are capitalized while titles in Italian or French are lowercased.   
 </p>
 
 {% assign theses_by_year = site.data.theses | group_by: 'year' %}
