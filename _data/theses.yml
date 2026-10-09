@@ -175,7 +175,7 @@
 
 - lastname: Baione
   firstname: Fabio
-  affiliation: Università di Roma La Sapienza
+  affiliation: Università di Roma "La Sapienza"
   year: 2004
   url: https://hdl.handle.net/20.500.14242/241376
   title: "La cartolarizzazione della riserva sinistri un modello attuariale per il ramo R. C. auto"
@@ -290,7 +290,7 @@
 
 - lastname: Benedetti
   firstname: Doriano
-  affiliation:
+  affiliation: Università di Verona
   year: 2015
   url: https://hdl.handle.net/20.500.14242/112339
   title: "I fondi pensione negoziali in Italia dopo la riforma: contesto normativo, situazione attuale, aspetti finanziario-attuariali, valutazione dellopzione di differimento."
@@ -352,7 +352,7 @@
 
 - lastname: Biavati
   firstname: Michele
-  affiliation: Alma Mater Studiorum - Università di Bologna
+  affiliation: Università di Bologna
   year: 2005
   url: https://hdl.handle.net/20.500.14242/269696
   title: "Three Essays on Economics of Social Relations with Heterogeneous Agents"
@@ -1003,7 +1003,7 @@
 
 - lastname: D'Amario
   firstname: Silvia
-  affiliation: Università di Roma La Sapienza
+  affiliation: Università di Roma "La Sapienza"
   year: 1997
   url: https://hdl.handle.net/20.500.14242/281754
   title: "Uno studio sulle tecniche di perequazione delle tavole di mortalità"
@@ -1023,11 +1023,12 @@
 
 - lastname: D'Amico
   firstname: Guglielmo
-  affiliation: Università di Roma La Sapienza
+  affiliation: Università di Roma "La Sapienza"
   year: 2006
   url: https://hdl.handle.net/20.500.14242/252360
   title: "Stochastic Finance a Semi-Markovian Approach and Its Generalizations"
-  supervisors: []
+  supervisors: 
+    - Raimondo Manca
   source: BCF
 
 - lastname: D'Amore
@@ -1097,7 +1098,7 @@
 
 - lastname: Del Vigna
   firstname: Matteo
-  affiliation:
+  affiliation: Università di Pisa
   year: 2012
   url: https://hdl.handle.net/20.500.14242/154798
   title: "Information Asymmetry and Equilibrium Models in Behavioral Finance"
@@ -1137,7 +1138,7 @@
 
 - lastname: Di Giorgio
   firstname: Carlo
-  affiliation: Università di Roma La Sapienza
+  affiliation: Università di Roma "La Sapienza"
   year: 2003
   url: https://hdl.handle.net/20.500.14242/282210
   title: "Isteresi, domanda aggregata, trend stocastici comuni teoria e verifica empirica in unanalisi di breve lungo periodo"
@@ -1258,7 +1259,7 @@
 
 - lastname: Felettigh
   firstname: Alberto
-  affiliation: Università di Roma La Sapienza
+  affiliation: Università di Roma "La Sapienza"
   year: 2004
   url: https://hdl.handle.net/20.500.14242/241634
   title: "Severance Payments and Employment Stabilization a Mathematical Model"
@@ -2437,7 +2438,7 @@
 
 - lastname: Petralia
   firstname: Angelo Enrico
-  affiliation: University of Turin and Collegio Carlo Alberto
+  affiliation: Università di Torino and Collegio Carlo Alberto
   year: 2022
   url: https://iris.unito.it/retrieve/870a3196-e1b2-4833-90b6-5f7d9d8949a6/Petralia_Phd_thesis.pdf
   title: "Essays on Bounded Rationality"
@@ -2819,7 +2820,7 @@
 
 - lastname: Rosario
   firstname: Oliviero
-  affiliation: Università di Roma La Sapienza
+  affiliation: Università di Roma "La Sapienza"
   year: 2003
   url: https://hdl.handle.net/20.500.14242/270305
   title: "Alcuni modelli per la gestione del rischio di credito"
@@ -3078,7 +3079,7 @@
 
 - lastname: Scocchera
   firstname: Stefania
-  affiliation: Università Gabriele D'Annunzio di Chieti e Pescara
+  affiliation: Università "G. d'Annunzio" di Chieti e Pescara
   year: 2019
   url: https://hdl.handle.net/20.500.14242/139440
   title: "Measuring Fiancial Risk Dynamically : A Markov Reward Approach for Credit Spread Evolution."
@@ -3117,7 +3118,7 @@
 
 - lastname: Severino
   firstname: Federico
-  affiliation: Università Commerciale Luigi Bocconi
+  affiliation: Università Bocconi
   year: 2018
   url: https://tesidottorato.depositolegale.it/bitstream/20.500.14242/167154/1/1691377.pdf
   title: "Orthogonal Decompositions in Asset Pricing"
