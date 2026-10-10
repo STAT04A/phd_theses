@@ -1273,7 +1273,9 @@
   year: 2001
   url: https://opac.bncf.firenze.sbn.it/Record/TSI0101470
   title: "Convessità e relative generalizzazioni nell'analisi economica pura: alcuni risultati in teoria dell'ottimizzazione ed in teoria dei giochi"
-  supervisors: Maria Teresa Calapso
+  supervisors: 
+    - Maria Teresa Calapso
+    - Ion Marius Stoka
   source: human
 
 - lastname: Ferraris
