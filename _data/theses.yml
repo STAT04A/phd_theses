@@ -1475,7 +1475,7 @@
 
 - lastname: Gattini
   firstname: Luca
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2010
   url: https://hdl.handle.net/20.500.14242/158807
   title: "Quality Measurement and Quality Bisa in Consumer Prices Indexes"
@@ -1507,7 +1507,7 @@
 
 - lastname: Ghodsi
   firstname: Mohammad Mahdi
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2015
   url: https://hdl.handle.net/20.500.14242/159662
   title: "Technical Barriers to Trade: Determinants and Implications"
@@ -1861,7 +1861,7 @@
 
 - lastname: Mainini
   firstname: Alessandra
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2009
   url: https://hdl.handle.net/20.500.14242/159837
   title: "Essays in Information Economics"
@@ -2211,12 +2211,13 @@
 
 - lastname: Oggioni
   firstname: Giorgia
-  affiliation: Università di Bergamo
+  affiliation: Università di Bergamo and Universite ́ Catholique de Louvain
   year: 2008
   url: https://hdl.handle.net/20.500.14242/124025
   title: "Average Cost Power Contracts and CO2 Burdens for Energy Intensive Industry"
   supervisors:
-    - E. Allevi
+    - Elisabetta Allevi
+    - Yves Smeers
   source: BCF
 
 - lastname: Olivieri
@@ -2398,7 +2399,7 @@
 
 - lastname: Pecora
   firstname: Nicolo'
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2013
   url: https://hdl.handle.net/20.500.14242/159916
   title: "Bounded Rationality and Heterogeneous Expectations in Economic Dynamics"
@@ -2493,7 +2494,8 @@
   year: 2009
   url: https://hdl.handle.net/20.500.14242/106794
   title: "Fixed Points and Chaotic Dynamics for Expansive-Contractive Maps in Euclidean Spaces, with Some Applications"
-  supervisors: []
+  supervisors: 
+    - Fabio Zanolin
   source: BCF
 
 - lastname: Pirino
@@ -2715,7 +2717,7 @@
 
 - lastname: Rillosi
   firstname: Francesco
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2013
   url: https://hdl.handle.net/20.500.14242/160443
   title: "Two-Country OLG Models with Integrated Financial Market"
@@ -3223,7 +3225,7 @@
 
 - lastname: Staffini
   firstname: Alessio
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2022
   url: https://hdl.handle.net/20.500.14242/159219
   title: "Essays on Complex Economic Systems and Artificial Intelligence"
@@ -3407,7 +3409,8 @@
   year: 2009
   url: https://hdl.handle.net/20.500.14242/376600
   title: "Quantitative Environmental Economics : Modeling Marketable Permits in Discrete and Continuous Time"
-  supervisors: []
+  supervisors: 
+    - Marc Chesney
   source: BCF
 
 - lastname: Tassinari
@@ -3422,7 +3425,7 @@
 
 - lastname: Tavoni
   firstname: Massimo
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2009
   url: https://hdl.handle.net/20.500.14242/159281
   title: "The Economic Analysis of Climate Policy: Technology, Innovation, Forestry and Uncertainty"
@@ -3455,7 +3458,7 @@
 
 - lastname: Toffoli
   firstname: Lorenzo
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2015
   url: https://hdl.handle.net/20.500.14242/158868
   title: "Multisectoral Analysis for Socio-Economic Policy: The Education System Case"
@@ -3637,7 +3640,7 @@
 
 - lastname: Vecchione
   firstname: Vittorio
-  affiliation: Università di Roma La Sapienza
+  affiliation: Università di Roma "La Sapienza"
   year: 2005
   url: https://hdl.handle.net/20.500.14242/243374
   title: "La valutazione del capitale basato sul rischio il ruolo della correlazione nella determinazione di una formula di approssimazione"
@@ -3720,7 +3723,7 @@
 
 - lastname: Wirkierman
   firstname: Ariel Luis
-  affiliation: Università Cattolica del Sacro Cuore
+  affiliation: Università Cattolica del "Sacro Cuore"
   year: 2012
   url: https://hdl.handle.net/20.500.14242/159363
   title: "Productivity Analysis from a Classical Perspective: Theory of Measurement and Measurement of Theory"
