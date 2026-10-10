@@ -3538,7 +3538,8 @@
   year: 2007
   url: https://hdl.handle.net/20.500.14242/152465
   title: "Un'applicazione della logica fuzzy allo studio dell'indebitamento delle famiglie nelle regioni italiane"
-  supervisors: []
+  supervisors: 
+    - Antonio Carbone
   source: BCF
 
 - lastname: Tripodi
