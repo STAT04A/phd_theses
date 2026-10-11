@@ -14,4 +14,15 @@
     </footer>
   </div>
 </body>
+<script>
+  (function () {
+    var el = document.querySelector('.year-nav');
+    function setH() {
+      document.documentElement.style.setProperty('--top-h', el.offsetHeight + 'px');
+    }
+    setH();
+    addEventListener('resize', setH);
+    addEventListener('load', setH);
+  })();
+</script>
 </html>
