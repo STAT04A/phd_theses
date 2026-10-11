@@ -38,6 +38,19 @@ p.intro {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #e5e7eb;
+
+/* new: sticky behavior */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #ffffff;
+  padding-top: 0.75rem;
+  margin-top: -0.75rem;   /* cancels the extra padding so the first screen looks the same */
+}
+
+/* new: keeps a year heading from hiding under the pinned pills after a click */
+section[id] {
+  scroll-margin-top: var(--top-h, 0px);
 }
 
 .year-nav a {
