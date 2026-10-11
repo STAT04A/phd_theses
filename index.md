@@ -24,6 +24,7 @@ Requests for additions or corrections are welcome: just <a href="mailto:alessand
 {% assign theses_by_year_sorted = theses_by_year | sort: 'name' | reverse %}
 
 <nav class="year-nav">
+  <a href="#" class="top-link">↑ top</a>
   {% for year in theses_by_year_sorted %}
     <a href="#{{ year.name }}">{{ year.name }}</a>
   {% endfor %}
