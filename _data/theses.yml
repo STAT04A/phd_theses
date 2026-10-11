@@ -711,7 +711,7 @@
   supervisors:
     - Fulvio Corsi
     - Stefano Marmi
-   source: BCF
+  source: BCF
 
 - lastname: Callegaro
   firstname: Giorgia
