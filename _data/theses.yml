@@ -1513,7 +1513,6 @@
   title: "Reference Dependence and Social Interactions in Agent-Based Models of Financial Markets"
   supervisors:
     - Cars Hommes
-    - Paolo Pellizzari
     - Marco Li Calzi
   source: BCF
 
@@ -1847,6 +1846,7 @@
   title: "Fixed Point, Game and Selection Theory: From the Hairy Ball Theorem to a Non Hair-Pulling Conversation"
   supervisors:
     - Pascal Gourdel
+    - Marco Li Calzi
   source: BCF
 
 - lastname: Macchiati
