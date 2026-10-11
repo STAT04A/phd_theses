@@ -1,3 +1,3 @@
-# AMASES_theses
-This creates and publishes a database for AMASES-related theses.
+# phd_theses
+This repository deals with maintaining and publishing a database for AMASES-related theses.
 We try to keep it minimal.
