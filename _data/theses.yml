@@ -359,7 +359,6 @@
   url: https://hdl.handle.net/20.500.14242/266041
   title: "Gestione dinamica di portafoglio mediante la programmazione stocastica"
   supervisors:
-    - Marco Zecchin
     - Elena Moretti
     - Elio Canestrelli
   source: BCF
@@ -424,7 +423,6 @@
   url: https://hdl.handle.net/20.500.14242/285686
   title: "Optimal Portfolio Strategies for Defined-Contribution Pension Plans a Stochastic Control Approach"
   supervisors:
-    - Marco Zecchin
     - Anna Rita Bacinello
   source: BCF
 
@@ -435,7 +433,6 @@
   url: https://hdl.handle.net/20.500.14242/225106
   title: "Rinegoziazione di contratti di fornitura in caso di monopolio bilaterale un modello con incertezza nei costi"
   supervisors:
-    - Marco Zecchin
     - Lorenzo Peccati
   source: BCF
 
@@ -519,7 +516,6 @@
   url: https://hdl.handle.net/20.500.14242/285687
   title: "Stochastic Models for Dynamic Mortality Actuarial Applications"
   supervisors:
-    - Marco Zecchin
     - Ermanno Pitacco
     - Annamaria Olivieri
   source: BCF
@@ -552,7 +548,6 @@
   url: https://hdl.handle.net/20.500.14242/243288
   title: "On Inflation and Inequality in Search Models of Money"
   supervisors:
-    - Marco Zecchin
     - Erio Castagnoli
     - Gabriele Camera
   source: BCF
@@ -1445,7 +1440,6 @@
   url: https://hdl.handle.net/20.500.14242/228085
   title: "Option Pricing under the Variance Gamma Process"
   supervisors:
-    - Marco Zecchin
     - Elisa Luciano
   source: BCF
 
@@ -1766,7 +1760,6 @@
   url: https://hdl.handle.net/20.500.14242/255210
   title: "An Analysis of Dependence Structures in Credit Risk Models"
   supervisors:
-    - Marco Zecchin
     - Antonella Basso
   source: BCF
 
@@ -2244,7 +2237,6 @@
   url: https://hdl.handle.net/20.500.14242/226160
   title: "Valuation of Credit Risky Securities with Some Applications"
   supervisors:
-    - Marco Zecchin
     - Bruno Girotto
   source: BCF
 
@@ -3349,7 +3341,6 @@
   url: https://hdl.handle.net/20.500.14242/284943
   title: "Metodologia di stima di modelli dinamici per decisioni di investimento"
   supervisors:
-    - Marco Zecchin
     - Andrea Gamba
     - Gordon Sick
   source: BCF
@@ -3519,9 +3510,8 @@
   url: https://hdl.handle.net/20.500.14242/269492
   title: "Three Essays in Portfolio Selection"
   supervisors:
-    - Marco Zecchin
-    - Elisa Luciano
     - Erio Castagnoli
+    - Elisa Luciano
   source: BCF
 
 - lastname: Tacconi
@@ -3613,7 +3603,6 @@
   url: https://hdl.handle.net/20.500.14242/246350
   title: "Temptation and Flexibility"
   supervisors:
-    - Marco Zecchin
     - Erio Castagnoli
     - Massimo Marinacci
   source: BCF
@@ -3733,7 +3722,6 @@
   url: https://hdl.handle.net/20.500.14242/262329
   title: "On Mathematical Principles of Nonlinear Optimization"
   supervisors:
-    - Marco Zecchin
     - Erio Castagnoli
   source: BCF
 
@@ -3859,9 +3847,8 @@
   url: https://hdl.handle.net/20.500.14242/284727
   title: "La valutazione dei volatility derivatives un modello di non arbitraggio per le volatilità implicite di mercato"
   supervisors:
-    - Marco Zecchin
-    - Gianluca Fusai
     - Erio Castagnoli
+    - Gianluca Fusai
   source: BCF
 
 - lastname: Wang
