@@ -1,3 +1,13 @@
+- lastname: Biagini
+  firstname: Sara
+  affiliation: Scuola Normale Superiore di Pisa
+  year: 2005
+  url: []
+  title: "Convex Duality in Financial Theory with General Semimartingales"
+  supervisors:
+    - Marco Frittelli
+  source: human
+
 - lastname: Durante
   firstname: Fabrizio
   affiliation: Università di Lecce
