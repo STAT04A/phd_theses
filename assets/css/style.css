@@ -39,18 +39,25 @@ p.intro {
   padding-bottom: 1rem;
   border-bottom: 1px solid #e5e7eb;
 
-/* new: sticky behavior */
+  /* sticky: the year pills (and the top button) stay visible while scrolling */
   position: sticky;
   top: 0;
   z-index: 10;
   background: #ffffff;
   padding-top: 0.75rem;
-  margin-top: -0.75rem;   /* cancels the extra padding so the first screen looks the same */
+  margin-top: -0.75rem;   /* cancels the extra padding: the unscrolled page looks as before */
 }
 
-/* new: keeps a year heading from hiding under the pinned pills after a click */
+/* Height of the pinned pills. These fallbacks work without JavaScript;
+   a script can replace them with the exact value. */
+:root { --top-h: 8rem; }
+@media (max-width: 640px) {
+  :root { --top-h: 16rem; }
+}
+
+/* a clicked year lands just below the pinned pills, not under them */
 section[id] {
-  scroll-margin-top: var(--top-h, 0px);
+  scroll-margin-top: calc(var(--top-h) + 0.5rem);
 }
 
 .year-nav a {
@@ -68,6 +75,10 @@ section[id] {
 .year-nav a:hover {
   background-color: #2563eb;
   color: #ffffff;
+}
+
+.year-nav .top-link {
+  margin-left: auto;   /* pushes the button to the right end of the last row */
 }
 
 /* Year Headings */
