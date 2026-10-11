@@ -1,3 +1,53 @@
+- lastname: Durante
+  firstname: Fabrizio
+  affiliation: Università di Lecce
+  year: 2006
+  url: 
+  title: "New Results on Copulas and Related Concepts"
+  supervisors:
+    - Carlo E. Sempi
+  source: human
+
+- lastname: Campi
+  firstname: Luciano
+  affiliation: Université Pierre-et-Marie-Curie - Paris VI
+  year: 2003
+  url: 
+  title: "Marchés financiers avec un nombre infini d'actifs, couverture quadratique et délits d'initiés"
+  supervisors:
+    - Marc Yor
+  source: human
+
+- lastname: Mancino
+  firstname: Maria Elvira
+  affiliation: Università di Trento
+  year: 1994
+  url: 
+  title: "Su alcuni integrali stocastici anticipativi"
+  supervisors:
+    - Giorgio Letta
+  source: human
+
+- lastname: Petturiti
+  firstname: Davide
+  affiliation: Università di Perugia
+  year: 2013
+  url: 
+  title: "Coherent Conditional Possibility Theory and Possibilistic Graphical Modeling in a Coherent Setting"
+  supervisors:
+    - Giulianella Coletti
+  source: human
+
+- lastname: Vantaggi
+  firstname: Barbara
+  affiliation: Università di Perugia
+  year: 1999
+  url: 
+  title: "Conditional Independence and Graphical Models in a Coherent Setting"
+  supervisors:
+    - Giulianella Coletti
+  source: human
+
 - lastname: Tamoni
   firstname: Andrea
   affiliation: Università Bocconi
@@ -659,9 +709,9 @@
   url: https://hdl.handle.net/20.500.14242/117383
   title: "Efficiency and Instabilities of Financial Markets"
   supervisors:
-    - Stefano Marmi
     - Fulvio Corsi
-  source: BCF
+   - Stefano Marmi
+   source: BCF
 
 - lastname: Callegaro
   firstname: Giorgia
@@ -1884,8 +1934,8 @@
   url: https://hdl.handle.net/20.500.14242/65381
   title: "Stochastic Models for Financial Time Series: Modelling, Estimation and Option Pricing"
   supervisors:
-    - Stefano Marmi
     - Giacomo Bormetti
+    - Stefano Marmi
   source: BCF
 
 - lastname: Lizzi
