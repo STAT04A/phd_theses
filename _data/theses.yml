@@ -2,7 +2,7 @@
   firstname: Fabrizio
   affiliation: Università di Lecce
   year: 2006
-  url: 
+  url: []
   title: "New Results on Copulas and Related Concepts"
   supervisors:
     - Carlo E. Sempi
@@ -12,7 +12,7 @@
   firstname: Luciano
   affiliation: Université Pierre-et-Marie-Curie - Paris VI
   year: 2003
-  url: 
+  url: []
   title: "Marchés financiers avec un nombre infini d'actifs, couverture quadratique et délits d'initiés"
   supervisors:
     - Marc Yor
@@ -22,7 +22,7 @@
   firstname: Maria Elvira
   affiliation: Università di Trento
   year: 1994
-  url: 
+  url: []
   title: "Su alcuni integrali stocastici anticipativi"
   supervisors:
     - Giorgio Letta
@@ -32,7 +32,7 @@
   firstname: Davide
   affiliation: Università di Perugia
   year: 2013
-  url: 
+  url: []
   title: "Coherent Conditional Possibility Theory and Possibilistic Graphical Modeling in a Coherent Setting"
   supervisors:
     - Giulianella Coletti
@@ -42,7 +42,7 @@
   firstname: Barbara
   affiliation: Università di Perugia
   year: 1999
-  url: 
+  url: []
   title: "Conditional Independence and Graphical Models in a Coherent Setting"
   supervisors:
     - Giulianella Coletti
@@ -52,7 +52,7 @@
   firstname: Andrea
   affiliation: Università Bocconi
   year: 2012
-  url: 
+  url: []
   title: "Essays in Asset Pricing"
   supervisors:
     - Fulvio Ortu
@@ -62,7 +62,7 @@
   firstname: Fulvio
   affiliation: University of Chicago
   year: 1996
-  url: 
+  url: []
   title: "Existence of Equivalent Martingale Measures in Finite Dimensional Securities Markets"
   supervisors:
     - José Alexandre Scheinkman
@@ -72,7 +72,7 @@
   firstname: Paolo
   affiliation: University of California, Berkeley
   year: 1995
-  url: 
+  url: []
   title: "A Model of Non-additive Uncertainty and its Applications to Economics"
   supervisors:
     - Robert Murdoch Anderson
@@ -82,7 +82,7 @@
   firstname: Paolo
   affiliation: Università Bocconi
   year: 2019
-  url: 
+  url: []
   title: "Essays in Mathematical Statistics: Representations, Convergence, and Applications"
   supervisors:
     - Fabio Maccheroni
@@ -92,7 +92,7 @@
   firstname: Francesca
   affiliation: Università di Napoli Federico II
   year: 2003
-  url: 
+  url: []
   title: "Differentiation of Set Functions and Applications to Market Games"
   supervisors:
     - Massimo Marinacci
@@ -102,7 +102,7 @@
   firstname: Adriana
   affiliation: Università di Napoli Federico II
   year: 2001
-  url: 
+  url: []
   title: "Multivalued Mappings and Capacities in Decision Theory"
   supervisors:
     - Massimo Marinacci
@@ -112,7 +112,7 @@
   firstname: Fabio
   affiliation: Università di Brescia
   year: 1999
-  url: 
+  url: []
   title: "Preferences' Representation in Decision Models"
   supervisors:
     - Massimo Marinacci
@@ -122,7 +122,7 @@
   firstname: Massimo
   affiliation: Northwestern University
   year: 1996
-  url: 
+  url: []
   title: "Games and Decisions under Ambiguity"
   supervisors:
     - Itzhak Gilboa
@@ -710,7 +710,7 @@
   title: "Efficiency and Instabilities of Financial Markets"
   supervisors:
     - Fulvio Corsi
-   - Stefano Marmi
+    - Stefano Marmi
    source: BCF
 
 - lastname: Callegaro
