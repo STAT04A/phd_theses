@@ -1,3 +1,83 @@
+- lastname: Tamoni
+  firstname: Andrea
+  affiliation: Università Bocconi
+  year: 2012
+  url: 
+  title: "Essays in Asset Pricing"
+  supervisors:
+    - Fulvio Ortu
+  source: human
+
+- lastname: Ortu
+  firstname: Fulvio
+  affiliation: University of Chicago
+  year: 1996
+  url: 
+  title: "Existence of Equivalent Martingale Measures in Finite Dimensional Securities Markets"
+  supervisors:
+    - José Alexandre Scheinkman
+  source: human
+
+- lastname: Ghirardato
+  firstname: Paolo
+  affiliation: University of California, Berkeley
+  year: 1995
+  url: 
+  title: "A Model of Non-additive Uncertainty and its Applications to Economics"
+  supervisors:
+    - Robert Murdoch Anderson
+  source: human
+
+- lastname: Leonetti
+  firstname: Paolo
+  affiliation: Università Bocconi
+  year: 2019
+  url: 
+  title: "Essays in Mathematical Statistics: Representations, Convergence, and Applications"
+  supervisors:
+    - Fabio Maccheroni
+  source: human
+
+- lastname: Centrone
+  firstname: Francesca
+  affiliation: Università di Napoli Federico II
+  year: 2003
+  url: 
+  title: "Differentiation of Set Functions and Applications to Market Games"
+  supervisors:
+    - Massimo Marinacci
+  source: human
+
+- lastname: Castaldo
+  firstname: Adriana
+  affiliation: Università di Napoli Federico II
+  year: 2001
+  url: 
+  title: "Multivalued Mappings and Capacities in Decision Theory"
+  supervisors:
+    - Massimo Marinacci
+  source: human
+
+- lastname: Maccheroni
+  firstname: Fabio
+  affiliation: Università di Brescia
+  year: 1999
+  url: 
+  title: "Preferences' Representation in Decision Models"
+  supervisors:
+    - Massimo Marinacci
+  source: human
+
+- lastname: Marinacci
+  firstname: Massimo
+  affiliation: Northwestern University
+  year: 1996
+  url: 
+  title: "Games and Decisions under Ambiguity"
+  supervisors:
+    - Itzhak Gilboa
+  source: human
+
 - lastname: Clemente
   firstname: Gian Paolo 
   affiliation: Università di Roma "La Sapienza"
@@ -2833,7 +2913,7 @@
 
 - lastname: Romano
   firstname: Maria Grazia
-  affiliation: Università di Napoli Federico Ii
+  affiliation: Università di Napoli Federico II
   year: 2005
   url: https://hdl.handle.net/20.500.14242/257820
   title: "Informational Cascades in Capital Markets with Trading Frictions"
@@ -3070,7 +3150,7 @@
 
 - lastname: Scalzo
   firstname: Vincenzo
-  affiliation: Università di Napoli Federico Ii
+  affiliation: Università di Napoli Federico II
   year: 2003
   url: https://hdl.handle.net/20.500.14242/291285
   title: "Social Nash Equilibria Variational Stability and Approximations"
@@ -3683,7 +3763,7 @@
 
 - lastname: Ventre
   firstname: Viviana
-  affiliation: Università di Napoli Federico Ii
+  affiliation: Università di Napoli Federico II
   year: 2003
   url: https://hdl.handle.net/20.500.14242/290311
   title: "Utilizzo dei test genetici in ambito assicurativo modelli di valutazione e prospettive"
