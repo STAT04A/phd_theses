@@ -56,6 +56,11 @@ p.intro {
 }
 
 /* a clicked year lands just below the pinned pills, not under them */
+:root { --top-h: 8rem; }
+@media (max-width: 640px) {
+  :root { --top-h: 16rem; }
+}
+
 section[id] {
   scroll-margin-top: calc(var(--top-h) + 0.5rem);
 }
