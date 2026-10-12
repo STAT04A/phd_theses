@@ -1,3 +1,13 @@
+- lastname: Merlone
+  firstname: Ugo  
+  affiliation: Università di Treste
+  year: 1998
+  url: https://www.openstarts.units.it/entities/publication/24dd7fca-cfe3-4179-9b4a-dcea474b0e3c/details
+  title: "Un approccio parametrico per la risoluzione di una classe di programmazione matematica"
+  supervisors: 
+    - Elena Moretti Tomasin
+  source: human
+
 - lastname: Biagini
   firstname: Sara
   affiliation: Scuola Normale Superiore di Pisa
@@ -6,7 +16,7 @@
   title: "Convex Duality in Financial Theory with General Semimartingales"
   supervisors:
     - Marco Frittelli
-  source: human
+  source: MGP
 
 - lastname: Durante
   firstname: Fabrizio
@@ -16,7 +26,7 @@
   title: "New Results on Copulas and Related Concepts"
   supervisors:
     - Carlo E. Sempi
-  source: human
+  source: MGP
 
 - lastname: Campi
   firstname: Luciano
@@ -26,7 +36,7 @@
   title: "Marchés financiers avec un nombre infini d'actifs, couverture quadratique et délits d'initiés"
   supervisors:
     - Marc Yor
-  source: human
+  source: MGP
 
 - lastname: Mancino
   firstname: Maria Elvira
@@ -36,7 +46,7 @@
   title: "Su alcuni integrali stocastici anticipativi"
   supervisors:
     - Giorgio Letta
-  source: human
+  source: MGP
 
 - lastname: Petturiti
   firstname: Davide
@@ -46,7 +56,7 @@
   title: "Coherent Conditional Possibility Theory and Possibilistic Graphical Modeling in a Coherent Setting"
   supervisors:
     - Giulianella Coletti
-  source: human
+  source: MGP
 
 - lastname: Vantaggi
   firstname: Barbara
@@ -56,7 +66,7 @@
   title: "Conditional Independence and Graphical Models in a Coherent Setting"
   supervisors:
     - Giulianella Coletti
-  source: human
+  source: MGP
 
 - lastname: Tamoni
   firstname: Andrea
@@ -66,7 +76,7 @@
   title: "Essays in Asset Pricing"
   supervisors:
     - Fulvio Ortu
-  source: human
+  source: MGP
 
 - lastname: Ortu
   firstname: Fulvio
@@ -76,7 +86,7 @@
   title: "Existence of Equivalent Martingale Measures in Finite Dimensional Securities Markets"
   supervisors:
     - José Alexandre Scheinkman
-  source: human
+  source: MGP
 
 - lastname: Ghirardato
   firstname: Paolo
@@ -86,7 +96,7 @@
   title: "A Model of Non-additive Uncertainty and its Applications to Economics"
   supervisors:
     - Robert Murdoch Anderson
-  source: human
+  source: MGP
 
 - lastname: Leonetti
   firstname: Paolo
@@ -96,7 +106,7 @@
   title: "Essays in Mathematical Statistics: Representations, Convergence, and Applications"
   supervisors:
     - Fabio Maccheroni
-  source: human
+  source: MGP
 
 - lastname: Centrone
   firstname: Francesca
@@ -106,7 +116,7 @@
   title: "Differentiation of Set Functions and Applications to Market Games"
   supervisors:
     - Massimo Marinacci
-  source: human
+  source: MGP
 
 - lastname: Castaldo
   firstname: Adriana
@@ -116,7 +126,7 @@
   title: "Multivalued Mappings and Capacities in Decision Theory"
   supervisors:
     - Massimo Marinacci
-  source: human
+  source: MGP
 
 - lastname: Maccheroni
   firstname: Fabio
@@ -126,7 +136,7 @@
   title: "Preferences' Representation in Decision Models"
   supervisors:
     - Massimo Marinacci
-  source: human
+  source: MGP
 
 - lastname: Marinacci
   firstname: Massimo
@@ -136,7 +146,7 @@
   title: "Games and Decisions under Ambiguity"
   supervisors:
     - Itzhak Gilboa
-  source: human
+  source: MGP
 
 - lastname: Clemente
   firstname: Gian Paolo 
