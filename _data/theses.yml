@@ -1,3 +1,13 @@
+- lastname: Muzzioli
+  firstname: Silvia
+  affiliation: Università di Bergamo
+  year: 2001
+  url: []
+  title: "Fuzzy Binomial Option Pricing”"
+  supervisors:
+    - Costanza Torricelli
+  source: human
+
 - lastname: Merlone
   firstname: Ugo  
   affiliation: Università di Treste
@@ -3036,13 +3046,14 @@
     - Anna Battauz
   source: BCF
 
-- lastname: Roventini; Ottaviani, Matteo
-  firstname: Andrea
+- lastname: Ottaviani
+  firstname: Matteo
   affiliation: Scuola Normale Superiore
   year: 2022
   url: https://hdl.handle.net/20.500.14242/167677
   title: "Financial Market Dynamics: Essay in Agent-Based Exploration"
-  supervisors: []
+  supervisors: 
+    - Andrea Roventini 
   source: BCF
 
 - lastname: Ruffini
