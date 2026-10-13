@@ -1,3 +1,23 @@
+- lastname: Colivicchi
+  firstname: Ilaria
+  affiliation: Università di Napoli Federico II
+  year: 2001
+  url: http://id.sbn.it/bid/BVE0919664
+  title: "Profili attuariali e di mercato delle polizze con prestazioni flessibili con particolare riferimento alle unitised with profit"
+  supervisors:
+    - Augusto Bellieri dei Belliera
+  source: human
+  
+- lastname: Grilli
+  firstname: Luca
+  affiliation: Università di Napoli Federico II
+  year: 2004
+  url: http://id.sbn.it/bid/BVE0736534
+  title: "Giochi differenziali con orizzonti asincroni e applicazioni alla gestione delle risorse rinnovabili"
+  supervisors:
+    - Lucia Maddalena
+  source: human
+  
 - lastname: Grassi
   firstname: Rosanna
   affiliation: Università di Brescia
