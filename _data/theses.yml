@@ -1,3 +1,24 @@
+- lastname: Favero
+  firstname: Gino
+  affiliation: Università di Padova
+  year: 2002
+  url: https://thesis.unipd.it/handle/20.500.12608/12420
+  title: "Robust and Adaptive strategies for Shortfall Risk Minimization under Model Uncertainty"
+  supervisors:
+    - Wolfgang Runggaldier
+  source: human
+  
+- lastname: Maglione
+  firstname: Federico
+  affiliation: City University of London
+  year: 2020
+  url: https://openaccess.city.ac.uk/id/eprint/25625/
+  title: "The Use of Compound Options for Credit Risk Modelling"
+  supervisors:
+    - Laura Ballotta
+    - Gianluca Fusai
+  source: human
+  
 - lastname: Crespi
   firstname: Giovanni
   affiliation: Università di Trieste
