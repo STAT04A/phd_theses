@@ -1,3 +1,23 @@
+- lastname: Biagini
+  firstname: Francesca
+  affiliation: Scuola Normale Superiore di Pisa
+  year: 2001
+  url: https://mathgenealogy.org/id.php?id=194035
+  title: "Quadratic Hedging Approach for Interest Rate Models with Stochastic Volatility"
+  supervisors:
+    - Maurizio Pratelli
+  source: MGP
+
+- lastname: Angelini
+  firstname: Fabio
+  affiliation: University of California, Los Angeles
+  year: 1995
+  url: https://mathgenealogy.org/id.php?id=36632
+  title: "Two Theorems on Linear Series"
+  supervisors:
+    - Robert Lazarsfeld
+  source: MGP
+
 - lastname: Ortobelli Lozza
   firstname: Sergio
   affiliation: Università di Bergamo
@@ -31,7 +51,7 @@
   firstname: Sara
   affiliation: Scuola Normale Superiore di Pisa
   year: 2005
-  url: []
+  url: https://mathgenealogy.org/id.php?id=193850
   title: "Convex Duality in Financial Theory with General Semimartingales"
   supervisors:
     - Marco Frittelli
