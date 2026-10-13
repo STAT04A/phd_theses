@@ -1,3 +1,22 @@
+- lastname: Crespi
+  firstname: Giovanni
+  affiliation: Università di Trieste
+  year: 2002
+  url:
+  title: "Disequazioni variazionali, ottimizzazione e applicazioni"
+  supervisors: []
+  source: human
+  
+- lastname: Ricci
+  firstname: Massimo
+  affiliation: Università di Bologna
+  year: 2024
+  url: http://hdl.handle.net/10077/11011
+  title: "Pseudo-Operations and Pseudo-Analysis: Applications to Probability and Risk Modelling"
+  supervisors:
+    - Sabrina Mulinacci
+  source: human
+  
 - lastname: Dall'Aglio
   firstname: Giovanni
   affiliation: Università di Trieste
