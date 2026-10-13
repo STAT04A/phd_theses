@@ -1,3 +1,34 @@
+- lastname: Papi
+  firstname: Marco
+  affiliation: Università di Roma Tor Vergata
+  year: 2002
+  url: http://id.sbn.it/bid/BVE0753325
+  title: "Viscosity Solutions and Stochastic Optimization in Mathematical Finance"
+  supervisors:
+    - Roberto Natalini
+  source: human
+  
+- lastname: Ventre
+  firstname: Viviana
+  affiliation: Università di Napoli Federico II
+  year: 2002
+  url: http://id.sbn.it/bid/BVE1037586
+  title: "Utilizzo dei test genetici in ambito assicurativo : modelli di valutazione e prospettive"
+  supervisors:
+    - Emilia Di Lorenzo
+  source: human
+  
+- lastname: Vigna
+  firstname: Elena
+  affiliation: Università di Trieste
+  year: 2000
+  url: http://id.sbn.it/bid/BVE1037586
+  title: "Defined Contribution Pension Schemes: Optimal Investment Strategies"
+  supervisors:
+    - Ermanno Pitacco
+    - Steven Haberman
+  source: human
+  
 - lastname: Colivicchi
   firstname: Ilaria
   affiliation: Università di Napoli Federico II
@@ -252,7 +283,7 @@
   affiliation: Università di Brescia
   year: 1999
   url: []
-  title: "Preferences' Representation in Decision Models"
+  title: "Preferences Representation in Decision Models"
   supervisors:
     - Massimo Marinacci
   source: MGP
