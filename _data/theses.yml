@@ -1,3 +1,13 @@
+- lastname: Dall'Aglio
+  firstname: Giovanni
+  affiliation: Università di Trieste
+  year: 2014
+  url: http://hdl.handle.net/10077/11011
+  title: "Preference-based Approach to Risk Sharing"
+  supervisors:
+    - Gianni Bosi
+  source: BCF
+  
 - lastname: Biagini
   firstname: Francesca
   affiliation: Scuola Normale Superiore di Pisa
