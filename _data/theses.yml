@@ -1,9 +1,18 @@
+- lastname: Ortobelli Lozza
+  firstname: Sergio
+  affiliation: Università di Bergamo
+  year: 1999
+  url: https://hdl.handle.net/20.500.14242/242152
+  title: "Portfolio Selection Moments Analysis and Safety First Analysis"
+  supervisors: []
+  source: BCF
+
 - lastname: Muzzioli
   firstname: Silvia
   affiliation: Università di Bergamo
   year: 2001
   url: []
-  title: "Fuzzy Binomial Option Pricing”"
+  title: "Fuzzy Binomial Option Pricing"    
   supervisors:
     - Costanza Torricelli
   source: human
