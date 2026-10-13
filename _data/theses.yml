@@ -1,3 +1,13 @@
+- lastname: Grassi
+  firstname: Rosanna
+  affiliation: Università di Brescia
+  year: 2000
+  url: http://id.sbn.it/bid/BVE1038527
+  title: "Reti finanziarie: scambi bilaterali di attività finanziarie"
+  supervisors:
+    - Anna Torriero
+  source: human
+  
 - lastname: Favero
   firstname: Gino
   affiliation: Università di Padova
