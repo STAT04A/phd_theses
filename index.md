@@ -38,8 +38,14 @@ Requests for additions or corrections are welcome: just <a href="mailto:alessand
     {% for thesis in sorted_items %}
     <li>
       <div class="thesis-author"><strong>{{ thesis.firstname }} {{ thesis.lastname }}</strong> ({{ thesis.affiliation }}, {{ thesis.year }})</div>
-      <div class="thesis-title"><a href="{{ thesis.url }}" target="_blank" rel="noreferrer">{{ thesis.title }}</a></div>
-      {% if thesis.supervisors and thesis.supervisors.size > 0 %}
+      <div class="thesis-title">
+      {% if thesis.url and thesis.url != "" %}
+        <a href="{{ thesis.url }}" target="_blank" rel="noreferrer">{{ thesis.title }}</a>
+    {% else %}
+      {{ thesis.title }}
+    {% endif %}
+    </div>
+    {% if thesis.supervisors and thesis.supervisors.size > 0 %}
       <div class="thesis-supervisor">
         {% if thesis.supervisors.size == 1 %}Supervisor: {{ thesis.supervisors[0] }}
         {% else %}Supervisors:
