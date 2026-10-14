@@ -1,3 +1,24 @@
+- lastname: Cerreia-Vioglio
+  firstname: Simone
+  affiliation: Columbia University
+  year: 2010
+  url: []
+  title: "Essays on Monotonicity and Convexity in Economics"
+  supervisors:
+    - Pierre Chiappori
+  source: human
+
+- lastname: Galati
+  firstname: Luca
+  affiliation: University of Wollongong
+  year: 2024
+  url: https://doi.org/10.71747/uow-r3gk326m.28192649
+  title: "Essays on the Market Microstructure of Centralised and Decentralised Finance"
+  supervisors:
+    - Andrew Ainsworth
+    - Terry Walter
+  source: human
+
 - lastname: Basso
   firstname: Antonella
   affiliation: Università di Trieste
