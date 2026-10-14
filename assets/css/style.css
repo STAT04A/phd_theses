@@ -132,15 +132,33 @@ ul.thesis-list li:last-child {
   color: #111827;
 }
 
-.thesis-title a {
+/* Title: shared by linked and unlinked entries */
+.thesis-title {
   font-size: 1.1rem;
   font-weight: 600;
+  line-height: 1.4;
+  color: #111827;              /* plain titles: same dark tone as author names */
+}
+
+/* Titles with a URL: look clickable */
+.thesis-title a {
   color: #1d4ed8;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #bfdbfe;   /* soft underline at rest */
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1.5px;
+  transition: text-decoration-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
 .thesis-title a:hover {
-  text-decoration: underline;
+  color: #1e40af;
+  text-decoration-color: currentColor;
+}
+
+.thesis-title a:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 .thesis-supervisor {
