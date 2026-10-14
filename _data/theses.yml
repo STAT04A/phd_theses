@@ -1,3 +1,24 @@
+- lastname: Corazza
+  firstname: Marco
+  affiliation: Università di Brescia
+  year: 1995
+  url: https://hdl.handle.net/10278/24052
+  title: "Caso e Caos deterministico: un approccio all’analisi delle leggi di evoluzione dei prezzi speculativi"
+  supervisors:
+    - Guido A. Rossi
+  source: human
+
+- lastname: Dindo
+  firstname: Antonella
+  affiliation: University of Amsterdam
+  year: 2007
+  url: https://hdl.handle.net/10278/3673678
+  title: "Bounded Rationality and Heterogeneity in Economic Dynamic Models"
+  supervisors:
+    - Cars Hommes
+    - Cees Diks
+  source: human
+
 - lastname: Cerreia-Vioglio
   firstname: Simone
   affiliation: Columbia University
