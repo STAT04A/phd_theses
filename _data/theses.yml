@@ -1,7 +1,7 @@
 - lastname: Basso
   firstname: Antonella
   affiliation: Università di Trieste
-  year: 2018
+  year: 1991
   url: https://hdl.handle.net/10278/18703
   title: "Fondamenti analitici dei modelli entropici e programmazione matematica"
   supervisors:
@@ -28,18 +28,18 @@
   supervisors:
     - Alberto Zaffaroni
   source: human
-  
+
 - lastname: Ianni
   firstname: Antonella
   affiliation: University College London
   year: 1996
-  url: 
+  url:
   title: "Population Games, Equilibria and the Evolution of Play"
   supervisors:
     - Tilman Borgers
     - Ken Binmore
   source: human
-  
+
 - lastname: Papi
   firstname: Marco
   affiliation: Università di Roma Tor Vergata
@@ -49,7 +49,7 @@
   supervisors:
     - Roberto Natalini
   source: human
-  
+
 - lastname: Vigna
   firstname: Elena
   affiliation: Università di Trieste
@@ -60,7 +60,7 @@
     - Ermanno Pitacco
     - Steven Haberman
   source: human
-  
+
 - lastname: Colivicchi
   firstname: Ilaria
   affiliation: Università di Napoli Federico II
@@ -70,7 +70,7 @@
   supervisors:
     - Augusto Bellieri dei Belliera
   source: human
-  
+
 - lastname: Grilli
   firstname: Luca
   affiliation: Università di Napoli Federico II
@@ -80,7 +80,7 @@
   supervisors:
     - Lucia Maddalena
   source: human
-  
+
 - lastname: Grassi
   firstname: Rosanna
   affiliation: Università di Brescia
@@ -90,7 +90,7 @@
   supervisors:
     - Anna Torriero
   source: human
-  
+
 - lastname: Favero
   firstname: Gino
   affiliation: Università di Padova
@@ -100,7 +100,7 @@
   supervisors:
     - Wolfgang Runggaldier
   source: human
-  
+
 - lastname: Maglione
   firstname: Federico
   affiliation: City University of London
@@ -111,7 +111,7 @@
     - Laura Ballotta
     - Gianluca Fusai
   source: human
-  
+
 - lastname: Crespi
   firstname: Giovanni
   affiliation: Università di Trieste
@@ -120,7 +120,7 @@
   title: "Disequazioni variazionali, ottimizzazione e applicazioni"
   supervisors: []
   source: human
-  
+
 - lastname: Ricci
   firstname: Massimo
   affiliation: Università di Bologna
@@ -130,7 +130,7 @@
   supervisors:
     - Sabrina Mulinacci
   source: human
-  
+
 - lastname: Dall'Aglio
   firstname: Giovanni
   affiliation: Università di Trieste
@@ -140,7 +140,7 @@
   supervisors:
     - Gianni Bosi
   source: BCF
-  
+
 - lastname: Biagini
   firstname: Francesca
   affiliation: Scuola Normale Superiore di Pisa
@@ -175,18 +175,18 @@
   affiliation: Università di Bergamo
   year: 2001
   url: []
-  title: "Fuzzy Binomial Option Pricing"    
+  title: "Fuzzy Binomial Option Pricing"
   supervisors:
     - Costanza Torricelli
   source: human
 
 - lastname: Merlone
-  firstname: Ugo  
+  firstname: Ugo
   affiliation: Università di Treste
   year: 1998
   url: https://www.openstarts.units.it/entities/publication/24dd7fca-cfe3-4179-9b4a-dcea474b0e3c/details
   title: "Un approccio parametrico per la risoluzione di una classe di programmazione matematica"
-  supervisors: 
+  supervisors:
     - Elena Moretti Tomasin
   source: human
 
@@ -331,7 +331,7 @@
   source: MGP
 
 - lastname: Clemente
-  firstname: Gian Paolo 
+  firstname: Gian Paolo
   affiliation: Università di Roma "La Sapienza"
   year: 2007
   url: https://hdl.handle.net/11573/917327
@@ -1365,7 +1365,7 @@
   year: 2006
   url: https://hdl.handle.net/20.500.14242/252360
   title: "Stochastic Finance a Semi-Markovian Approach and Its Generalizations"
-  supervisors: 
+  supervisors:
     - Raimondo Manca
   source: BCF
 
@@ -1611,7 +1611,7 @@
   year: 2001
   url: https://opac.bncf.firenze.sbn.it/Record/TSI0101470
   title: "Convessità e relative generalizzazioni nell'analisi economica pura: alcuni risultati in teoria dell'ottimizzazione ed in teoria dei giochi"
-  supervisors: 
+  supervisors:
     - Maria Teresa Calapso
     - Ion Marius Stoka
   source: human
@@ -2840,7 +2840,7 @@
   year: 2009
   url: https://hdl.handle.net/20.500.14242/106794
   title: "Fixed Points and Chaotic Dynamics for Expansive-Contractive Maps in Euclidean Spaces, with Some Applications"
-  supervisors: 
+  supervisors:
     - Fabio Zanolin
   source: BCF
 
@@ -3224,8 +3224,8 @@
   year: 2022
   url: https://hdl.handle.net/20.500.14242/167677
   title: "Financial Market Dynamics: Essay in Agent-Based Exploration"
-  supervisors: 
-    - Andrea Roventini 
+  supervisors:
+    - Andrea Roventini
   source: BCF
 
 - lastname: Ruffini
@@ -3754,7 +3754,7 @@
   year: 2009
   url: https://hdl.handle.net/20.500.14242/376600
   title: "Quantitative Environmental Economics : Modeling Marketable Permits in Discrete and Continuous Time"
-  supervisors: 
+  supervisors:
     - Marc Chesney
   source: BCF
 
@@ -3861,7 +3861,7 @@
   year: 2007
   url: https://hdl.handle.net/20.500.14242/152465
   title: "Un'applicazione della logica fuzzy allo studio dell'indebitamento delle famiglie nelle regioni italiane"
-  supervisors: 
+  supervisors:
     - Antonio Carbone
   source: BCF
 
