@@ -1,3 +1,45 @@
+- lastname: Basso
+  firstname: Antonella
+  affiliation: Università di Trieste
+  year: 2018
+  url: https://hdl.handle.net/10278/18703
+  title: "Fondamenti analitici dei modelli entropici e programmazione matematica"
+  supervisors:
+    - Francesco Mason
+  source: human
+
+- lastname: Telve
+  firstname: Ottavia
+  affiliation: Università di Torino and Politecnico di Torino
+  year: 2018
+  url: https://hdl.handle.net/2318/1995278
+  title: "Modeling Dependence in Estimation of Portfolio's Value at Risk"
+  supervisors:
+    - Franco Pellerey
+    - Laura Sacerdote
+  source: human
+
+- lastname: Grassi
+  firstname: Daniele
+  affiliation: Università del Salento
+  year: 2011
+  url: []
+  title: "Translative Functions and Abstract Convexity in Financial and Economic Models"
+  supervisors:
+    - Alberto Zaffaroni
+  source: human
+  
+- lastname: Ianni
+  firstname: Antonella
+  affiliation: University College London
+  year: 1996
+  url: 
+  title: "Population Games, Equilibria and the Evolution of Play"
+  supervisors:
+    - Tilman Borgers
+    - Ken Binmore
+  source: human
+  
 - lastname: Papi
   firstname: Marco
   affiliation: Università di Roma Tor Vergata
