@@ -1,3 +1,128 @@
+- lastname: Lacagnina
+  firstname: Valerio
+  affiliation: Università di Napoli Federico II
+  year: 1998
+  url:
+  title: "Algoritmi computazionali innovativi per l'ottimizzazione del Project Management"
+  supervisors:
+    - Francesco Andria
+  source: human
+
+- lastname: Fanelli
+   firstname: Viviana
+   affiliation: Università di Foggia
+   year: 2007
+   url:
+   title: "Numerical Implementation of a Credit Risk Model in the HJM Framework"
+  supervisors:
+    - Silvana Musti
+  source: human
+
+- lastname: Gnoatto
+   firstname: Alessandro
+  affiliation: Università degli Studi di Padova
+  year: 2012
+  url: https://hdl.handle.net/20.500.14242/110923
+  title: "Wishart Processes: Theory and Applications in Mathematical Finance"
+  supervisors:
+    - Martino Grasselli
+    - Wolfgang Johann Runggaldier
+  source: human
+
+- lastname: Munari
+   firstname: Cosimo Andrea
+   affiliation: ETH Zürich
+   year: 2015
+   url:
+   title: "Measuring Risk Beyond the Cash-Additive Paradigm"
+  supervisors:
+    - Martin Schweizer
+  source: human
+
+- lastname: Rosazza Gianin
+   firstname: Emanuela
+   affiliation: Università di Bergamo
+  year: 2002
+  url:
+  title: "Convexity and Law Invariance of Risk Measures"
+  supervisors:
+    - Marco Frittelli
+  source: human
+
+- lastname: Battauz
+   firstname: Anna
+   affiliation: Scuola Normale Superiore
+   year: 2004
+   url:
+   title: "Some Issues about American Options"
+  supervisors:
+    - Maurizio Pratelli
+  source: human
+
+- lastname: Acciaio
+  firstname: Beatrice
+  affiliation: Università di Perugia
+  year: 2006
+  url: https://people.math.ethz.ch/~beacciaio/pdfs/acciaio_thesis.pdf
+  title: "Due problemi relativi alla teoria dell'utilità in condizioni inusuali"
+  supervisors:
+    - Walter Schachermayer
+    - Stefano Herzel
+  source: human
+
+- lastname: De Marco
+  firstname: Stefano
+  affiliation: Scuola Normale Superiore
+  year: 2011
+  url: https://ricerca.sns.it/handle/11384/85676
+  title: "On Probability Distributions of Diffusions and Financial Models with Non-Globally Smooth Coefficients"
+  supervisors:
+    - Vlad Bally
+    - Maurizio Pratelli
+  source: human
+
+- lastname: Kamm
+  firstname: Kevin
+  affiliation: Università di Bologna
+  year: 2023
+  url: https://amsdottorato.unibo.it/id/eprint/10543/
+  title: "A Unified Model for XVA, Including Interest Rates and Rating"
+  supervisors:
+    - Andrea Pascucci
+    - Luca Caputo
+  source: human
+
+- lastname: Raspanti
+  firstname: Elisa
+  affiliation: Università di Bologna
+  year: 2023
+  url: https://amsdottorato.unibo.it/id/eprint/10917/
+  title: "Portfolio Optimization in the Energy Market"
+  supervisors:
+    - Andrea Pascucci
+  source: human
+
+- lastname: Borovykh
+  firstname: Anastasia Igorevna
+  affiliation: Università di Bologna
+  year: 2018
+  url: https://amsdottorato.unibo.it/id/eprint/8726/
+  title: "Applications of Stochastic Processes to Financial Risk Computation"
+  supervisors:
+    - Andrea Pascucci
+  source: human
+
+- lastname: Diop
+  firstname: Sidy
+  affiliation: Università di Bologna
+  year: 2018
+  url: https://amsdottorato.unibo.it/id/eprint/8745/
+  title: "Credit Risk Management and Jump Models"
+  supervisors:
+    - Andrea Pascucci
+    - Marco Di Francesco
+  source: human
+
 - lastname: Corazza
   firstname: Marco
   affiliation: Università di Brescia
@@ -234,7 +359,7 @@
 
 - lastname: Biagini
   firstname: Sara
-  affiliation: Scuola Normale Superiore di Pisa
+  affiliation: Scuola Normale Superiore
   year: 2005
   url: https://mathgenealogy.org/id.php?id=193850
   title: "Convex Duality in Financial Theory with General Semimartingales"
