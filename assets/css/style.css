@@ -96,16 +96,21 @@ background-color: #ffffff;
 }
 
 /* Statistics formatting */
-.stat-link {
-  margin-left: auto;   /* pushes the button to the right end of the last row */
+a.stat-link {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
   background-color: #ffffff;
   color: #1d4ed8;              /* same blue as your thesis titles */
+  text-decoration: none;
   border-radius: 0.375rem;
+  font-size: 0.875rem;
   font-weight: 600;
-  box-shadow: inset 0 0 0 1.5px #1d4ed8;   /* outline that doesn't change the button's size */
+  white-space: nowrap;
+  box-shadow: inset 0 0 0 1.5px #1d4ed8;  /* outline that doesn't change the button's size */
+  transition: all 0.15s ease-in-out;
 }
 
-.stat-link:hover {
+a.stat-link:hover {
   box-shadow: inset 0 0 0 1.5px #2563eb;
 }
 
