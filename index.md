@@ -14,8 +14,10 @@ description: >-
 <h1>PhD Theses</h1>
 
 <p class="intro">
-This is a list of {{ site.data.theses | size }} PhD theses in fields related to <a href="https://www.amases.org">AMASES</a> (Association for Mathematics Applied to Economic and Social Sciences). It collects entries submitted by authors or supervisors, or archived by the <a href="https://tesidottorato.depositolegale.it">Biblioteca Centrale di Firenze</a>, or listed by the <a href="https://mathgenealogy.org">Mathematics Genealogy Project</a>. Titles are formatted according to language conventions: capitalized in English, lowercased in Italian or French. <a href="stats.html">Statistics</a> are on another page.
-<br>
+<span style="display: flex; justify-content: space-between; gap: 1em; flex-wrap: wrap;">
+<span>This is a list of {{ site.data.theses | size }} PhD theses in fields related to <a href="https://www.amases.org">AMASES</a> (Association for Mathematics Applied to Economic and Social Sciences). It collects entries submitted by authors or supervisors, or archived by the <a href="https://tesidottorato.depositolegale.it">Biblioteca Centrale di Firenze</a>, or listed by the <a href="https://mathgenealogy.org">Mathematics Genealogy Project</a>. Titles are formatted according to language conventions: capitalized in English, lowercased in Italian or French.</span>
+<span><a href="stats.html">[Statistics[</a>.</span>
+</span>
 <br><br>
 Requests for additions or corrections are welcome: just <a href="mailto:alessandra.cretarola@unich.it">email us</a>.
 </p>
