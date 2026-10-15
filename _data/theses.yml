@@ -1,8 +1,19 @@
+- lastname: Lamantia
+  firstname: Fabio
+  affiliation: Università di Messina
+  year: 2001
+  url: https://hdl.handle.net/20.500.14242/278571
+  title: "Analisi di modelli dinamici per l'interazione industriale con effetti di spillover"
+  supervisors:
+    - Benedetto Matarazzo
+    - Gian Italo Bischi
+  source: human
+
 - lastname: Angilella
   firstname: Silvia
   affiliation: Università di Messina
   year: 2002
-  url: https://tesidottorato.depositolegale.it/handle/20.500.14242/238342
+  url: https://hdl.handle.net/20.500.14242/238342
   title: "Modelli decisionali in condizione d'incertezza dalla teoria dell'utilità ai modelli non additivi e non transitivi"
   supervisors:
     - Salvatore Greco
