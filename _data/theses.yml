@@ -9,17 +9,17 @@
   source: human
 
 - lastname: Fanelli
-   firstname: Viviana
-   affiliation: Università di Foggia
-   year: 2007
-   url:
-   title: "Numerical Implementation of a Credit Risk Model in the HJM Framework"
+  firstname: Viviana
+  affiliation: Università di Foggia
+  year: 2007
+  url:
+  title: "Numerical Implementation of a Credit Risk Model in the HJM Framework"
   supervisors:
     - Silvana Musti
   source: human
 
 - lastname: Gnoatto
-   firstname: Alessandro
+  firstname: Alessandro
   affiliation: Università degli Studi di Padova
   year: 2012
   url: https://hdl.handle.net/20.500.14242/110923
@@ -30,18 +30,18 @@
   source: human
 
 - lastname: Munari
-   firstname: Cosimo Andrea
-   affiliation: ETH Zürich
-   year: 2015
-   url:
-   title: "Measuring Risk Beyond the Cash-Additive Paradigm"
+  firstname: Cosimo Andrea
+  affiliation: ETH Zürich
+  year: 2015
+  url:
+  title: "Measuring Risk Beyond the Cash-Additive Paradigm"
   supervisors:
     - Martin Schweizer
   source: human
 
 - lastname: Rosazza Gianin
-   firstname: Emanuela
-   affiliation: Università di Bergamo
+  firstname: Emanuela
+  affiliation: Università di Bergamo
   year: 2002
   url:
   title: "Convexity and Law Invariance of Risk Measures"
@@ -50,11 +50,11 @@
   source: human
 
 - lastname: Battauz
-   firstname: Anna
-   affiliation: Scuola Normale Superiore
-   year: 2004
-   url:
-   title: "Some Issues about American Options"
+  firstname: Anna
+  affiliation: Scuola Normale Superiore
+  year: 2004
+  url:
+  title: "Some Issues about American Options"
   supervisors:
     - Maurizio Pratelli
   source: human
