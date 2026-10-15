@@ -11,7 +11,7 @@ description: >-
        style="max-width: 100%; height: auto; display: block; margin: 0 auto 1.5em;">
 </a>
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem;">
   <h1 style="margin-bottom: 0;">PhD Theses</h1>
   <a href="stats.html" class="stat-link">Statistics</a>
 </div>
