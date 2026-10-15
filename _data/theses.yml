@@ -1,3 +1,54 @@
+- lastname: Fusai
+  firstname: Gianluca
+  affiliation: University of Warwick
+  year: 2019
+  url: https://wrap.warwick.ac.uk/id/eprint/2706/
+  title: "Applications of Laplace Transform for Evaluating Occupation Time Options and Other Derivatives"
+  supervisors:
+    - Stewart Hodges
+  source: human
+
+- lastname: Aleandri
+  firstname: Michele
+  affiliation: Gran Sasso Science Institute
+  year: 2019
+  url: https://hdl.handle.net/20.500.14242/116452
+  title: "Inhomogeneous mean field models and applications"
+  supervisors:
+    - Paolo Dai Pra
+    - Ida Minelli
+  source: human
+
+- lastname: Pavoni
+  firstname: Nicola
+  affiliation: Universitat Pompeu Fabra
+  year: 2000
+  url: 
+  title: "Three Essays on Dynamic Contracts with Applications to the Labour Market"
+  supervisors:
+    - Antonio Cabrales
+  source: MGP
+
+- lastname: Menicucci
+  firstname: Domenico
+  affiliation: Universitat Pompeu Fabra
+  year: 2001
+  url: 
+  title: "Some Developments on Mechanism Design and Auctions"
+  supervisors:
+    - Antonio Cabrales
+  source: MGP
+
+- lastname: Mulinacci
+  firstname: Sabrina
+  affiliation: Università di Napoli Federico II
+  year: 1998
+  url: 
+  title: "Valutazione del prezzo delle opzioni americane: metodi probabilistici"
+  supervisors:
+    - Maurizio Pratelli
+  source: human
+
 - lastname: Lamantia
   firstname: Fabio
   affiliation: Università di Messina
