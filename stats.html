@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhD Theses Statistics | AMASES</title>
+<style>
+  :root {
+    --bg: #fafaf7; --card: #ffffff; --ink: #1c2430; --muted: #6b7480;
+    --accent: #1f5c99; --accent-soft: #cfe0f1; --line: #e4e6ea; --warn: #b45309;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14181d; --card: #1c2229; --ink: #e8ebef; --muted: #98a2ae;
+            --accent: #6aa7e0; --accent-soft: #2b4560; --line: #2c343d; --warn: #f0a04b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 16px 48px; }
+  header a.back { color: var(--accent); text-decoration: none; font-size: .95rem; }
+  header a.back:hover { text-decoration: underline; }
+  h1 { margin: 8px 0 4px; font-size: 1.9rem; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .card .num { font-size: 2.1rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .card .lbl { color: var(--muted); font-size: .88rem; margin-top: 4px; }
+  section.panel { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; margin-bottom: 24px; }
+  section.panel h2 { margin: 0 0 12px; font-size: 1.15rem; }
+  .chart { display: flex; align-items: stretch; gap: 3px; height: 260px; padding-top: 22px; overflow-x: auto; }
+  .col { flex: 1 0 18px; display: flex; flex-direction: column; align-items: center; min-width: 18px; }
+  .plot { flex: 1 1 0; min-height: 0; width: 100%; display: flex; align-items: flex-end; border-bottom: 1px solid var(--line); }
+  .bar { width: 100%; background: var(--accent); border-radius: 3px 3px 0 0; min-height: 0; transition: height .6s ease; position: relative; }
+  .bar.zero { display: none; }
+  .bar .v { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-size: .7rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .col .y { font-size: .66rem; color: var(--muted); margin-top: 4px; writing-mode: vertical-rl; transform: rotate(180deg); height: 34px; flex: none; }
+  .col:hover .bar { background: var(--ink); }
+  .status { font-size: .88rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+  .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #2e9d5b; margin-right: 6px; }
+  .dot.err { background: #c0392b; }
+  .note { color: var(--warn); font-size: .88rem; margin-top: 8px; }
+  button { font: inherit; font-size: .88rem; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--line);
+           background: var(--card); color: var(--ink); cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  noscript { display: block; padding: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="back" href="./">&larr; Return to list of PhD theses</a>
+    <h1>PhD Theses Statistics</h1>
+    <p class="sub">Counts are computed live from the main list.</p>
+  </header>
+
+  <noscript>This page needs JavaScript to read the thesis list and compute the counters.</noscript>
+
+  <div class="cards" id="cards">
+    <div class="card"><div class="num" id="c-total">&ndash;</div><div class="lbl">theses in total</div></div>
+    <div class="card"><div class="num" id="c-years">&ndash;</div><div class="lbl">years covered (<span id="c-range">&ndash;</span>)</div></div>
+    <div class="card"><div class="num" id="c-peak">&ndash;</div><div class="lbl" id="c-peak-lbl">peak year</div></div>
+    <div class="card"><div class="num" id="c-last5">&ndash;</div><div class="lbl">in the last 5 years</div></div>
+  </div>
+
+  <section class="panel">
+    <h2>Theses per year</h2>
+    <div class="chart" id="chart" aria-label="Bar chart of theses per year" role="img"></div>
+  </section>
+
+  <div class="status" id="status">
+    <span><span class="dot" id="dot"></span><span id="st-text">Loading&hellip;</span></span>
+    <button id="refresh" type="button">Refresh now</button>
+  </div>
+  <div class="note" id="note" hidden></div>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  // Where the main list lives. When this file sits next to the list (same site),
+  // the relative URL is used; otherwise (e.g. opened locally) fall back to the absolute URL.
+  var SOURCES = ["./", "https://stat04a.github.io/phd_theses/"];
+  var REFRESH_MS = 5 * 60 * 1000;   // re-read the main page every 5 minutes
+  var state = { rows: [] };
+
+  var $ = function (id) { return document.getElementById(id); };
+
+  // ---- Parsing: read the main page and count entries under each year heading ----
+  function parseList(html) {
+    var doc = new DOMParser().parseFromString(html, "text/html");
+    var counts = {};
+    var heads = doc.querySelectorAll("h2");
+    heads.forEach(function (h) {
+      var y = (h.textContent || "").trim();
+      if (!/^\d{4}$/.test(y)) return;
+      var n = 0, el = h.nextElementSibling;
+      while (el && el.tagName !== "H2") {
+        if (el.tagName === "UL" || el.tagName === "OL") n += el.querySelectorAll(":scope > li").length;
+        el = el.nextElementSibling;
+      }
+      counts[y] = (counts[y] || 0) + n;
+    });
+    // Number declared in the page intro ("a list of 415 PhD theses"), used as a sanity check
+    var m = (doc.body.textContent || "").match(/list of\s+(\d+)\s+PhD theses/i);
+    return { counts: counts, declared: m ? parseInt(m[1], 10) : null };
+  }
+
+  function toRows(counts) {
+    var years = Object.keys(counts).map(Number).sort(function (a, b) { return a - b; });
+    if (!years.length) return [];
+    var rows = [], cum = 0;
+    for (var y = years[0]; y <= years[years.length - 1]; y++) {
+      var c = counts[String(y)] || 0;
+      cum += c;
+      rows.push({ year: y, count: c, cum: cum });
+    }
+    return rows;
+  }
+
+  // ---- Fetching ----
+  function fetchHtml(url) {
+    var u = url + (url.indexOf("?") < 0 ? "?" : "&") + "_=" + Date.now(); // bypass caches
+    return fetch(u, { cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.text();
+    });
+  }
+  function load() {
+    var i = 0;
+    function next() {
+      if (i >= SOURCES.length) return Promise.reject(new Error("Could not read the main page"));
+      var url = SOURCES[i++];
+      return fetchHtml(url).then(function (html) {
+        var p = parseList(html);
+        if (!Object.keys(p.counts).length) throw new Error("No year sections found");
+        return p;
+      }).catch(next);
+    }
+    return next();
+  }
+
+  // ---- Rendering ----
+  function animate(el, to) {
+    var from = parseInt(el.getAttribute("data-v") || "0", 10);
+    el.setAttribute("data-v", to);
+    if (from === to || window.matchMedia("(prefers-reduced-motion: reduce)").matches) { el.textContent = to; return; }
+    var t0 = performance.now(), dur = 700;
+    (function step(t) {
+      var k = Math.min(1, (t - t0) / dur);
+      el.textContent = Math.round(from + (to - from) * (1 - Math.pow(1 - k, 3)));
+      if (k < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+
+  function render(rows, declared) {
+    var total = rows.reduce(function (s, r) { return s + r.count; }, 0);
+    var peak = rows.reduce(function (b, r) { return r.count > b.count ? r : b; }, rows[0]);
+    var lastYear = rows[rows.length - 1].year;
+    var last5 = rows.filter(function (r) { return r.year > lastYear - 5; })
+                    .reduce(function (s, r) { return s + r.count; }, 0);
+
+    animate($("c-total"), total);
+    animate($("c-years"), rows.length);
+    $("c-range").textContent = rows[0].year + "\u2013" + lastYear;
+    animate($("c-peak"), peak.count);
+    $("c-peak-lbl").textContent = "peak year (" + peak.year + ")";
+    animate($("c-last5"), last5);
+
+    // Bars
+    var max = peak.count || 1, chart = $("chart");
+    chart.innerHTML = "";
+    rows.forEach(function (r) {
+      var col = document.createElement("div"); col.className = "col";
+      col.title = r.year + ": " + r.count + (r.count === 1 ? " thesis" : " theses");
+      var bar = document.createElement("div"); bar.className = "bar" + (r.count ? "" : " zero");
+      bar.style.height = "0%";
+      if (r.count) { var v = document.createElement("span"); v.className = "v"; v.textContent = r.count; bar.appendChild(v); }
+      var y = document.createElement("div"); y.className = "y"; y.textContent = r.year;
+      var plot = document.createElement("div"); plot.className = "plot"; plot.appendChild(bar);
+      col.appendChild(plot); col.appendChild(y); chart.appendChild(col);
+      requestAnimationFrame(function () { requestAnimationFrame(function () {
+        if (r.count) bar.style.height = Math.max(2, (r.count / max) * 100) + "%";
+      }); });
+    });
+
+    // Sanity check against the number announced in the page intro
+    var note = $("note");
+    if (declared !== null && declared !== total) {
+      note.hidden = false;
+      note.textContent = "Note: the main page announces " + declared + " theses, but " + total +
+        " entries were found in the year sections.";
+    } else { note.hidden = true; }
+  }
+
+  function setStatus(ok, text) {
+    $("dot").className = "dot" + (ok ? "" : " err");
+    $("st-text").textContent = text;
+  }
+
+  function refresh() {
+    $("refresh").disabled = true;
+    return load().then(function (p) {
+      state.rows = toRows(p.counts); state.declared = p.declared;
+      render(state.rows, p.declared);
+      setStatus(true, "Live from the main page \u00b7 updated " + new Date().toLocaleTimeString());
+    }).catch(function (e) {
+      setStatus(false, "Could not read the main page (" + e.message + ")" +
+        (state.rows.length ? " \u2013 showing last known data" : ""));
+    }).then(function () { $("refresh").disabled = false; });
+  }
+
+  $("refresh").addEventListener("click", refresh);
+  document.addEventListener("visibilitychange", function () { if (!document.hidden) refresh(); });
+  setInterval(refresh, REFRESH_MS);
+  refresh();
+})();
+</script>
+</body>
+</html>
