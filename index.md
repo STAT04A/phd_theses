@@ -11,10 +11,10 @@ description: >-
        style="max-width: 100%; height: auto; display: block; margin: 0 auto 1.5em;">
 </a>
 
-<h1 style="display: flex; justify-content: space-between; align-items: baseline;">
-  PhD Theses
-  <a href="#statistics" style="font-size: 0.75em; font-weight: normal; text-decoration: none;">[Statistics]</a>
-</h1>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+  <h1 style="margin-bottom: 0;">PhD Theses</h1>
+  <a href="#statistics" class="top-link">[Statistics]</a>
+</div>
 
 <p class="intro">
 This is a list of {{ site.data.theses | size }} PhD theses in fields related to <a href="https://www.amases.org">AMASES</a> (Association for Mathematics Applied to Economic and Social Sciences). It collects entries submitted by authors or supervisors, or archived by the <a href="https://tesidottorato.depositolegale.it">Biblioteca Centrale di Firenze</a>, or listed by the <a href="https://mathgenealogy.org">Mathematics Genealogy Project</a>. Titles are formatted according to language conventions: capitalized in English, lowercased in Italian or French.
