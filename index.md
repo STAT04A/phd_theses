@@ -13,7 +13,7 @@ description: >-
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
   <h1 style="margin-bottom: 0;">PhD Theses</h1>
-  <a href="#statistics" class="stat-link">Statistics</a>
+  <a href="stats.html" class="stat-link">Statistics</a>
 </div>
 
 <p class="intro">
