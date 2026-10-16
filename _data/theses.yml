@@ -104,7 +104,7 @@
   firstname: Sabrina
   affiliation: Università di Napoli Federico II
   year: 1998
-  url: 
+  url: https://hdl.handle.net/20.500.14242/271121
   title: "Valutazione del prezzo delle opzioni americane: metodi probabilistici"
   supervisors:
     - Maurizio Pratelli
@@ -136,7 +136,7 @@
   firstname: Valerio
   affiliation: Università di Napoli Federico II
   year: 1998
-  url:
+  url: https://hdl.handle.net/20.500.14242/246570
   title: "Algoritmi computazionali innovativi per l'ottimizzazione del Project Management"
   supervisors:
     - Francesco Andria
@@ -177,7 +177,7 @@
   firstname: Emanuela
   affiliation: Università di Bergamo
   year: 2002
-  url:
+  url: https://hdl.handle.net/20.500.14242/293011
   title: "Convexity and Law Invariance of Risk Measures"
   supervisors:
     - Marco Frittelli
@@ -262,7 +262,7 @@
   affiliation: Università di Brescia
   year: 1995
   url: https://hdl.handle.net/10278/24052
-  title: "Caso e Caos deterministico: un approccio all’analisi delle leggi di evoluzione dei prezzi speculativi"
+  title: "Caso e caos deterministico: un approccio all’analisi delle leggi di evoluzione dei prezzi speculativi"
   supervisors:
     - Guido A. Rossi
   source: human
@@ -417,10 +417,12 @@
   firstname: Giovanni
   affiliation: Università di Trieste
   year: 2002
-  url:
+  url: https://hdl.handle.net/20.500.14242/235397
   title: "Disequazioni variazionali, ottimizzazione e applicazioni"
-  supervisors: []
-  source: human
+  supervisors: 
+    - Angelo Guerraggio
+    - Erio Castagnoli
+  source: BCF
 
 - lastname: Ricci
   firstname: Massimo
@@ -475,7 +477,7 @@
   firstname: Silvia
   affiliation: Università di Bergamo
   year: 2001
-  url:
+  url: https://hdl.handle.net/20.500.14242/285990
   title: "Fuzzy Binomial Option Pricing"
   supervisors:
     - Costanza Torricelli
@@ -545,7 +547,7 @@
   firstname: Barbara
   affiliation: Università di Perugia
   year: 1999
-  url:
+  url: https://hdl.handle.net/20.500.14242/109539
   title: "Conditional Independence and Graphical Models in a Coherent Setting"
   supervisors:
     - Giulianella Coletti
@@ -585,17 +587,17 @@
   firstname: Paolo
   affiliation: Università Bocconi
   year: 2019
-  url:
+  url: https://hdl.handle.net/20.500.14242/167368
   title: "Essays in Mathematical Statistics: Representations, Convergence, and Applications"
   supervisors:
     - Fabio Maccheroni
-  source: MGP
+  source: BCF
 
 - lastname: Centrone
   firstname: Francesca
   affiliation: Università di Napoli Federico II
   year: 2003
-  url:
+  url: https://hdl.handle.net/20.500.14242/289258
   title: "Differentiation of Set Functions and Applications to Market Games"
   supervisors:
     - Massimo Marinacci
@@ -605,21 +607,22 @@
   firstname: Adriana
   affiliation: Università di Napoli Federico II
   year: 2001
-  url:
-  title: "Multivalued Mappings and Capacities in Decision Theory"
+  url: https://hdl.handle.net/20.500.14242/290497
+  title: "Random correspondences and capacities"
   supervisors:
-    - Massimo Marinacci
-  source: MGP
+    - Achille Basile
+  source: BCF
 
 - lastname: Maccheroni
   firstname: Fabio
   affiliation: Università di Brescia
   year: 1999
-  url:
+  url: https://hdl.handle.net/20.500.14242/292869
   title: "Preferences Representation in Decision Models"
   supervisors:
-    - Massimo Marinacci
-  source: MGP
+    - Erio Castagnoli
+    - Giulio Diale
+  source: BCF
 
 - lastname: Marinacci
   firstname: Massimo
@@ -1505,7 +1508,8 @@
   year: 2019
   url: https://hdl.handle.net/20.500.14242/141146
   title: "Risk and Asset Management Models : Theoretical and Practical Aspects"
-  supervisors: []
+  supervisors: 
+    - Francesco Cesarone
   source: BCF
 
 - lastname: Constantino Da Silva
@@ -3038,7 +3042,7 @@
   firstname: Marco
   affiliation: Università di Perugia
   year: 2019
-  url:
+  url: https://hdl.handle.net/20.500.14242/201484
   title: "Essays on Bitcoin Price Dynamics"
   supervisors:
     - Gianna Figà-Talamanca
@@ -3763,7 +3767,7 @@
   year: 2009
   url: https://hdl.handle.net/20.500.14242/105426
   title: "Pricing Credit Derivatives : Beyond the Market Standard Model"
-  supervisors: []
+  supervisors: Rosella Giacometti
   source: BCF
 
 - lastname: Severino
