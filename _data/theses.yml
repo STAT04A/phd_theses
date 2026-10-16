@@ -1,3 +1,64 @@
+- lastname: Bignozzi
+  firstname: Valeria
+  affiliation: City University London
+  year: 2012
+  url: https://openaccess.city.ac.uk/id/eprint/2037/
+  title: "Contributions to Solvency Risk Measurement"
+  supervisors:
+    - Andreas Tsanakas
+    - Laura Ballotta
+  source: human
+
+- lastname: Brachetta
+  firstname: Matteo
+  affiliation: Università "G. d'Annunzio" di Chieti-Pescara
+  year: 2019
+  url: 
+  title: "Optimal Reinsurance and Investment for Stochastic Factor Risk Models"
+  supervisors:
+    - Claudia Ceci
+  source: human
+
+- lastname: De Angelis
+  firstname: Tiziano
+  affiliation: Università di Roma "La Sapienza"
+  year: 2012
+  url: https://hdl.handle.net/11573/917070
+  title: "Pricing American Bond Options under HJM: An Infinite Dimensional Variational Inequality"
+  supervisors:
+    - Maria Beatrice Chiarolla
+  source: human
+
+- lastname: Regis
+  firstname: Luca
+  affiliation: Università di Torino
+  year: 2011
+  url: 
+  title: "Three Essays in Finance and Actuarial Science"
+  supervisors:
+    - Elisa Luciano
+  source: human
+  
+- lastname: Svaluto-Ferro
+  firstname: Sara
+  affiliation: ETH Zürich
+  year: 2018
+  url: https://hdl.handle.net/20.500.11850/303781
+  title: "Probability Measure-Valued Jump-Diffusions in Finance and Related Topics"
+  supervisors:
+    - Martin Larsson
+  source: human
+ 
+- lastname: Grasselli
+  firstname: Martino
+  affiliation: Université Paris 1 Panthéon-Sorbonne
+  year: 2001
+  url: https://hdl.handle.net/20.500.11850/303781
+  title: "La gestion de portefeuille à long terme: une approche de finance mathématique"
+  supervisors:
+    - Elyès Jouini
+  source: human  
+
 - lastname: Fusai
   firstname: Gianluca
   affiliation: University of Warwick
@@ -13,7 +74,7 @@
   affiliation: Gran Sasso Science Institute
   year: 2019
   url: https://hdl.handle.net/20.500.14242/116452
-  title: "Inhomogeneous mean field models and applications"
+  title: "Inhomogeneous Mean Field Models and Applications"
   supervisors:
     - Paolo Dai Pra
     - Ida Minelli
@@ -58,6 +119,7 @@
   supervisors:
     - Benedetto Matarazzo
     - Gian Italo Bischi
+    - Maria Teresa Calapso
   source: human
 
 - lastname: Angilella
@@ -463,7 +525,7 @@
   firstname: Maria Elvira
   affiliation: Università di Trento
   year: 1994
-  url:
+  url: https://hdl.handle.net/20.500.14242/240546
   title: "Su alcuni integrali stocastici anticipativi"
   supervisors:
     - Giorgio Letta
