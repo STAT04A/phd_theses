@@ -1,3 +1,35 @@
+- lastname: Colaneri
+  firstname: Katia
+  affiliation: Università "G. d'Annunzio" di Chieti-Pescara
+  year: 2013
+  url: 
+  title: "Characterization of the Filter for Jump-diffusion Observations via the Filtering Equation: An Application to Risk-minimizing
+Hedging"
+  supervisors:
+    - Claudia Ceci
+  source: human
+
+- lastname: Morbidi
+  firstname: Federica
+  affiliation: Università "G. d'Annunzio" di Chieti-Pescara
+  year: 2006
+  url: 
+  title: "Emissione ottima dei titoli di Stato: studio di un problema di controllo stocastico"
+  supervisors:
+    - Claudia Ceci
+  source: human
+
+- lastname: Dieci
+  firstname: Roberto
+  affiliation: Università di Brescia 
+  year: 1994
+  url: 
+  title: "Su un metodo per la valutazione di progetti"
+  supervisors:
+    - Giulio Diale
+    - Lorenzo Peccati
+  source: human
+
 - lastname: Bignozzi
   firstname: Valeria
   affiliation: City University London
@@ -14,7 +46,7 @@
   affiliation: Università "G. d'Annunzio" di Chieti-Pescara
   year: 2019
   url: 
-  title: "Optimal Reinsurance and Investment for Stochastic Factor Risk Models"
+  title: "Optimal Reinsurance and Investment Problems with Different Levels of Information"
   supervisors:
     - Claudia Ceci
   source: human
@@ -53,7 +85,7 @@
   firstname: Martino
   affiliation: Université Paris 1 Panthéon-Sorbonne
   year: 2001
-  url: https://hdl.handle.net/20.500.11850/303781
+  url: 
   title: "La gestion de portefeuille à long terme: une approche de finance mathématique"
   supervisors:
     - Elyès Jouini
