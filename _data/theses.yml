@@ -1,3 +1,13 @@
+- lastname: Politano
+  firstname: Massimiliano
+  affiliation: Università di Napoli Federico II
+  year: 2002
+  url: https://hdl.handle.net/20.500.14242/249532
+  title: "Modelli stocastici per la valutazione della rischiosità di un fondo pensioni"
+  supervisors:
+    - Emilia Di Lorenzo
+  source: BCF
+
 - lastname: Colaneri
   firstname: Katia
   affiliation: Università "G. d'Annunzio" di Chieti-Pescara
@@ -3081,7 +3091,7 @@ Hedging"
   source: human
 
 - lastname: Pecora
-  firstname: Nicolo'
+  firstname: Nicolò
   affiliation: Università Cattolica del "Sacro Cuore"
   year: 2013
   url: https://hdl.handle.net/20.500.14242/159916
@@ -3774,7 +3784,7 @@ Hedging"
 
 - lastname: Scopelliti
   firstname: Domenico
-  affiliation: Università di Verona
+  affiliation: Università di Messina
   year: 2020
   url: https://hdl.handle.net/20.500.14242/100358
   title: "A Deterministic and Stochastic Variational Approach to Multistage Equilibrium Problems under Uncertainty and Application to an Electricity Market"
