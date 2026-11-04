@@ -1,3 +1,13 @@
+- lastname: Grasso
+  firstname: Fabio
+  affiliation: Università di Roma "La Sapienza"
+  year: 1990
+  url: 
+  title: "Il modello Bonus-Malus: strategie e criteri decisionali nell'assicurazione di Responsabilità Civile Autoveicoli"
+  supervisors:
+    - Riccardo Ottaviani
+  source: human
+
 - lastname: Politano
   firstname: Massimiliano
   affiliation: Università di Napoli Federico II
