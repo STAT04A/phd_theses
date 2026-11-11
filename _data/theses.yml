@@ -1,3 +1,14 @@
+- lastname: Dal Forno
+  firstname: Arianna
+  affiliation: Università di Trieste
+  year: 2001
+  url: https://iris.unimol.it/handle/11695/65140
+  title: "Topics in Equilibrium Dynamics Theory: a) Local Determinacy and Sunspot Equilibria in Arbitrary Dimensions; b) Optimal Necessary Conditions and Bubbles in Sequential Economies"
+  supervisors:
+    - Jean-Michel Grandmont
+    - Luigi Montrucchio
+  source: human
+
 - lastname: Grasso
   firstname: Fabio
   affiliation: Università di Roma "La Sapienza"
